@@ -10,7 +10,9 @@ public class Months {
 		System.out.print("> ");
 		int month = 5;
 
-		// TODO: Tervehdykset merkkijonoiksi!
+		// TODO 1: Vakion sijaan lue kuukauden numero käyttäjältä
+
+		// TODO 2: Tervehdykset merkkijonoiksi!
 
 		if( month < 2 ) {
 			System.out.println("On talvi");
