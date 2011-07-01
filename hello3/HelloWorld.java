@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// Tämä tässä tulee siitä, että tiedoston nimi on HelloWorld.java
 public class HelloWorld {
 
 	public static void main(String args[]) {
