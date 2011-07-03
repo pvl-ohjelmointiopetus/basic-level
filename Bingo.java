@@ -29,7 +29,7 @@ public class Bingo {
 		sanat[14] = "kokonaisluku";
 		sanat[15] = "double";
 		sanat[16] = "liukuluku";
-		sanat[17] = "kissa";
+		sanat[17] = "purkka";
 		sanat[18] = "toistorakenne";
 		sanat[19] = "kommentointi";
 		sanat[20] = "ehto";
