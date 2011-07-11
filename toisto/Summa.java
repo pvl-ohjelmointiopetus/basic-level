@@ -29,6 +29,7 @@ public class Summa {
 		System.out.println("Annettujen lukujen summa oli " + sum);
 
 		// TODO 1: Muuta ohjelmaa niin, että se osaa laskea myös keskiarvon!
+		// TODO 2: Muuta ohjelmaa niin, että se laskee negatiivisia lukuja
 
 	}
 
