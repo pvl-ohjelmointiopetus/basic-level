@@ -3,17 +3,20 @@ import java.util.Scanner;
 public class Funktio {
 
 	public static void main(String[] args) {
+
+		// luodaan uusi muuttuja, joka mahdollistaa tekstin lukemisen
+
 		Scanner input;
 		input = new Scanner(System.in);
 
 		System.out.println("Anna ala- ja ylärajat, niin kerron, onko funktiolla nollakohtaa välillä!");
 		
-		System.out.println("Alaraja");
 		double lower;
+		System.out.println("Alaraja");
 		lower = input.nextDouble();
 
-		System.out.println("Yläraja");
 		double upper;
+		System.out.println("Yläraja");
 		upper = input.nextDouble();
 
 		boolean nullpoint = hasNullpoint( lower, upper );
@@ -34,8 +37,13 @@ public class Funktio {
 
 		double[] values;
 		values = new double[distance];
+
+		// nyt laskettava arvo
+		double currentValue = start;
+
 		for( int i = 0; i < distance; i = i + 1 ) {
-			values[i] = calculateValue(i);
+			currentValue = currentValue + 1;
+			values[i] = calculateValue(currentValue);
 		}
 		return values;
 	}
