@@ -66,6 +66,30 @@ public class Funktio {
 		}
 		return false;
 	}
+	
+	// TODO 4 malliratkaisu
+	private static double maxValue(double start, double end) {
+		
+		double[] arvoja;
+		arvoja = calculateValues(start, end, 1.0);
+		
+		double max;
+		max = arvoja[0];
+		
+		for(int i = 0; i < arvoja.length; i = i + 1) {
+			
+			// onko arvoja[i] isompi kuin max
+			// JOS SE ON NIIN...
+			// asetetaan max = arvoja[i]
+			
+			if( arvoja[i] > max ) {
+				max = arvoja[i];
+			}
+			
+		}
+		
+		return max;
+	}
 
 	// TODO 1: Uusi laskettava funktio on x^4 - 3 x^2 + 4. Muokkaa koodia siten, että sitä voi käyttää
 	// TODO 2: Ilmoita myös, jos nollakohtaa ei löydy
