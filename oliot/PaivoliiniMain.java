@@ -1,9 +1,13 @@
 public class PaivoliiniMain {
-
+	
+	// Pääohjelma, eli tämä ajetaan
 	public static void main(String[] args) {
+		
+		// luodaan uusia oliota
 		Paivoliini matti = new Paivoliini("Matti", 1988);
 		Paivoliini nyyti = new Paivoliini("Nyyti", 1993);
 		
+		// käytettän olioiden tarjoamia palveluita, eli metodeita.
 		System.out.println( matti.getName() + " " + matti.getAge() );
 		System.out.println( nyyti.getName() + " " + nyyti.getAge() );
 		
